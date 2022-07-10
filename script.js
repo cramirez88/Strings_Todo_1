@@ -72,3 +72,29 @@
 // }
 
 // console.log(acronyms('Ultimate Fighting Championship'))
+
+// Count Non-Spaces
+// Create a function that, given a string, returns the number of non-space characters found in the string. 
+
+// Examples:
+
+// countNonSpaces("Honey pie, you are driving me crazy") => 29
+// countNonSpaces("Hello world !") => 11
+
+
+// function countNonSpaces(str){
+//   // create a count variable
+//   let count = 0
+//   // loop through a given string
+//   for (let i =0; i < str.length; i++){
+//     // if there is a non-space character add it to count
+//     if(str[i] !== ' '){
+//       count++
+//     }
+//   }
+//    // return count
+//    return count
+// }
+
+// console.log(countNonSpaces('Honey pie, you are driving me crazy'))
+
