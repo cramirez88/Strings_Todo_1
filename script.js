@@ -49,3 +49,26 @@
 // }
 
 // console.log(getDigits('nn12njn3n69f5'))
+
+
+// Acronyms
+// Create a function that, given a string, returns the string’s acronym (first letter of the word capitalized). You are allowed to use .split() and .toUpperCase().
+
+// acronym(" there's no free lunch - gotta pay yer way. ") => "TNFL-GPYW". 
+
+// acronym("Live from New York, it's Saturday Night!") => "LFNYISN".
+
+// function acronyms(str){
+//   let newArray = str.split(' ')
+//   let newString = ''
+//   // loop through the new Array
+//   for (let i = 0; i < newArray.length; i++){
+//        // grab the first letter of each word and capitalize it
+//        newString += newArray[i][0]
+//   }
+//    // return the acronym
+//   return newString
+ 
+// }
+
+// console.log(acronyms('Ultimate Fighting Championship'))
