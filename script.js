@@ -98,3 +98,26 @@
 
 // console.log(countNonSpaces('Honey pie, you are driving me crazy'))
 
+// Remove Shorter Strings
+// Create a function that, given an array of strings and a numerical value, returns an array that only contains strings longer than or equal to the given value.
+
+// Examples:
+
+// removeShorterStrings(['Good morning', 'sunshine', 'the', 'Earth', 'says', 'hello'], 4) => ['Good morning', 'sunshine', 'Earth', 'says', 'hello']
+// removeShorterStrings(['There', 'is', 'a', 'bug', 'in', 'the', 'system'], 3) => ['There', 'bug', 'the', 'system']
+
+// function removeShorterStrings(arr, val){
+//   // new array 
+//   let newArray = []
+//   // loop through original array and if the item is greater than the value, add it to new array
+//   for (let i = 0; i < arr.length; i++){
+//     if(arr[i].length >= val){
+//       newArray.push(arr[i])
+//     }
+//   }
+//   // return new Array
+//   return newArray
+// }
+
+// console.log(removeShorterStrings(['Good morning', 'sunshine', 'the', 'Earth', 'says', 'hello'], 4))
+
